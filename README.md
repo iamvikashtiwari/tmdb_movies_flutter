@@ -32,7 +32,9 @@ The app also includes a **bookmark system with offline caching**, allowing users
 
 ---
 
-## 📂 Project Structure
-
-# tmdb_movies_flutter
-# tmdb_movies_flutter
+🏠 Home Screen
+<img src="screenshots/home.png" width="300">
+🎬 Movie Details
+<img src="screenshots/details.png" width="300">
+🔖 Bookmarks Screen
+<img src="screenshots/bookmarks.png" width="300">
