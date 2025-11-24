@@ -33,8 +33,8 @@ The app also includes a **bookmark system with offline caching**, allowing users
 ---
 
 🏠 Home Screen
-<img src="screenshots/home.png" width="300">
+<img src="screenshots/home_screen.png" width="300">
 🎬 Movie Details
-<img src="screenshots/details.png" width="300">
+<img src="screenshots/detail_screen.png" width="300">
 🔖 Bookmarks Screen
-<img src="screenshots/bookmarks.png" width="300">
+<img src="screenshots/bookmark_screen.png" width="300">
