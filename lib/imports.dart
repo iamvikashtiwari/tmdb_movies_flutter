@@ -1,0 +1,11 @@
+export 'package:flutter/material.dart';
+export 'package:movie_app/core/api_client.dart';
+export 'package:movie_app/core/app_strings.dart';
+export 'package:movie_app/data/movie_repository.dart';
+export 'package:movie_app/data/hive_service.dart';
+export 'package:hive_flutter/hive_flutter.dart';
+export 'package:provider/provider.dart';
+export 'package:uni_links3/uni_links.dart';
+export 'package:movie_app/data/models.dart';
+export 'package:connectivity_plus/connectivity_plus.dart';
+export 'package:movie_app/core/constants.dart';
