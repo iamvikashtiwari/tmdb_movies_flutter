@@ -58,7 +58,6 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Consumer<HomeViewModel>(
         builder: (_, vm, __) {
-          // Show partial UI if some data is loaded
           return RefreshIndicator(
             onRefresh: () async {
               await Future.wait([vm.load(), bookmarkVM.load()]);
@@ -71,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                         TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                 const SizedBox(height: 8),
                 SizedBox(
-                  height: MediaQuery.of(context).size.height / 3,
+                  height: MediaQuery.of(context).size.height / 2.7,
                   child: vm.trending.isEmpty
                       ? const Center(child: CircularProgressIndicator())
                       : ListView.separated(
@@ -97,7 +96,7 @@ class HomeScreen extends StatelessWidget {
                         TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                 const SizedBox(height: 8),
                 SizedBox(
-                  height: MediaQuery.of(context).size.height / 3,
+                  height: MediaQuery.of(context).size.height / 2.7,
                   child: vm.nowPlaying.isEmpty
                       ? const Center(child: CircularProgressIndicator())
                       : ListView.separated(
